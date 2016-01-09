@@ -10,6 +10,10 @@
 
 @implementation CustomCell
 
+@synthesize tView;
+@synthesize labelTxt1;
+@synthesize labelTxt2;
+
 - (void)awakeFromNib {
     // Initialization code
 }
