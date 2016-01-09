@@ -15,6 +15,11 @@
 		289649BA1C40EAD300A856AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289649B81C40EAD300A856AF /* LaunchScreen.storyboard */; };
 		289649C51C40EAD300A856AF /* CustomTableView6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289649C41C40EAD300A856AF /* CustomTableView6Tests.m */; };
 		289649D01C40EAD300A856AF /* CustomTableView6UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289649CF1C40EAD300A856AF /* CustomTableView6UITests.m */; };
+		289649DF1C40EBD500A856AF /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 289649DE1C40EBD500A856AF /* CustomCell.m */; };
+		289649E41C40EDA400A856AF /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 289649E01C40EDA400A856AF /* image1.png */; };
+		289649E51C40EDA400A856AF /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 289649E11C40EDA400A856AF /* image2.png */; };
+		289649E61C40EDA400A856AF /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 289649E21C40EDA400A856AF /* image3.png */; };
+		289649E71C40EDA400A856AF /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 289649E31C40EDA400A856AF /* image4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		289649CB1C40EAD300A856AF /* CustomTableView6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableView6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		289649CF1C40EAD300A856AF /* CustomTableView6UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableView6UITests.m; sourceTree = "<group>"; };
 		289649D11C40EAD300A856AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289649DD1C40EBD500A856AF /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		289649DE1C40EBD500A856AF /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		289649E01C40EDA400A856AF /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		289649E11C40EDA400A856AF /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		289649E21C40EDA400A856AF /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		289649E31C40EDA400A856AF /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +117,8 @@
 				289649B01C40EAD300A856AF /* ViewController.h */,
 				289649B11C40EAD300A856AF /* ViewController.m */,
 				289649B31C40EAD300A856AF /* Main.storyboard */,
+				289649DD1C40EBD500A856AF /* CustomCell.h */,
+				289649DE1C40EBD500A856AF /* CustomCell.m */,
 				289649B61C40EAD300A856AF /* Assets.xcassets */,
 				289649B81C40EAD300A856AF /* LaunchScreen.storyboard */,
 				289649BB1C40EAD300A856AF /* Info.plist */,
@@ -117,6 +130,10 @@
 		289649AA1C40EAD300A856AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				289649E01C40EDA400A856AF /* image1.png */,
+				289649E11C40EDA400A856AF /* image2.png */,
+				289649E21C40EDA400A856AF /* image3.png */,
+				289649E31C40EDA400A856AF /* image4.png */,
 				289649AB1C40EAD300A856AF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				289649BA1C40EAD300A856AF /* LaunchScreen.storyboard in Resources */,
+				289649E61C40EDA400A856AF /* image3.png in Resources */,
+				289649E51C40EDA400A856AF /* image2.png in Resources */,
+				289649E41C40EDA400A856AF /* image1.png in Resources */,
+				289649E71C40EDA400A856AF /* image4.png in Resources */,
 				289649B71C40EAD300A856AF /* Assets.xcassets in Resources */,
 				289649B51C40EAD300A856AF /* Main.storyboard in Resources */,
 			);
@@ -272,6 +293,7 @@
 			files = (
 				289649B21C40EAD300A856AF /* ViewController.m in Sources */,
 				289649AF1C40EAD300A856AF /* AppDelegate.m in Sources */,
+				289649DF1C40EBD500A856AF /* CustomCell.m in Sources */,
 				289649AC1C40EAD300A856AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
